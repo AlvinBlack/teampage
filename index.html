@@ -1,0 +1,144 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <title>Web Designers</title>
+
+    <link href="css/bootstrap.min14ed.css?v=3.3.6" rel="stylesheet">
+<!--     <link rel="stylesheet" type="text/css" href="css/reset.css"/> -->
+    <link rel="stylesheet" type="text/css" href="css/1.css"/>
+    <!-- <script src="jquery-3.2.1.slim.min.js"></script> -->
+    <script src="jquery-3.2.1.js">
+    </script>
+	
+</head>
+
+<body style="height: 1800px;">
+
+    <div id="topnavbar">
+        <div id="fixedtitle">
+            <div id="servicetitle">Web Designers</div>
+        </div>
+        <div id="fixednavbar">
+             <div id="fixednavtemplate">
+                <a class="fixednavitem {{isactive}}" href="#{{linkid}}">
+                    {{itemcontent}}
+                </a>
+            </div>
+            <div id="slider"></div>
+        </div>
+    </div>
+
+
+
+
+
+    <div id="headerbanner" >
+        <h1 id="title">来自力学的程序员们</h1>
+       <!--  <p id="content">
+           
+        </p> -->
+    </div>
+
+
+
+    <div id="productdetail">
+
+        <div id="navbar">
+            <div id="navtemplate">
+                <a class="navitem {{isactive}}" href="#{{linkid}}">
+                    {{itemcontent}}
+                </a>
+            </div>
+        </div>
+
+        <div id="details">
+
+            <div id="productoverview" class="detailtitle">
+                团队概述
+            </div>
+            <div class="detailcontent">
+                <div class="overview">
+                    <p class="description">
+                        我们原是钱学森的衣钵继承人 </br>
+                        我们来自中科大，力学所顶尖团队</br>
+                        为了梦想</br>
+                        我们又义无反顾地踏上程序员的漫漫征程</br>
+                        从Web前端，数据可视化</br>
+                        到java后端，机器学习</br>
+                        所有遇到的困难</br>
+                        都会被我们踩到脚下</br>
+                        所有遇到的机会</br>
+                        都会被我们攥到手中</br>
+
+                    </p>
+                    <div class="contenticon">
+                        <img src="./image/guigu.jpg" style="width:600px">
+                    </div>
+                </div>
+            </div>
+
+            <div id="productadvantage" class="detailtitle">
+                成员介绍
+            </div>
+            <div id="advantagetemplate" class="detailcontent">
+                <div class="advantageitem {{isactive}}">
+                    <div class="title">
+                        {{itemtitle}}
+                    </div>
+                    <div class="content">
+                        <img src="{{photourl}}" style="width:100px;"/></br>
+                        
+                        <strong>blog地址：</strong><a target="view_window" href="{{blogurl}}">{{blogurl}}</a></br>
+                        <strong>github地址：</strong><a target="view_window" href="{{giturl}}">{{giturl}}</a>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div id="productfunction" class="detailtitle">
+                职业技能
+            </div>
+            <div id="functiontemplate" class="detailcontent">
+                <div class="functionitem {{isactive}}">
+                    <div class="icon"></div>
+                    <h6 class="title">{{function-title}}</h6>
+                    <p class="content">{{function-content}}</p>
+                </div>
+            </div>
+
+            <div id="applicationscene" class="detailtitle">
+                成果展示
+            </div>
+            <div id="scene" class="detailcontent">
+                <div id="scenetabtemplate" class="scenetab">
+                    <div class="tabitem {{isactive}}">
+                        {{scene-content}}
+                    </div>
+                </div>
+                <div id="scenebodytemplate" class="scenecontent">
+                    <div class="bodyitem {{isactive}}">
+                        <p>{{scene-content}}</p>
+                        地址：<a target="view_window" href="{{url}}">{{url}}</a>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+
+    </div>
+
+    <div id="footerbanner">
+        <h1 id="title">联系我们</h1>
+        <a  href="mailto:lyc1005@mail.ustc.edu.cn"><div id="register">lyc1005@mail.ustc.edu.cn</div></a>
+    </div>
+
+    
+</body>
+<script type="text/javascript" src="1.js"></script>
