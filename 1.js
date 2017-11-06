@@ -23,6 +23,7 @@ var advantageData = [
     ["李玉川","./image/li.jpg","http://alvinblack.postach.io","https://github.com/alvinblack","inactive"],
     ["张路姚","./image/zhang.jpg","http://zhangluyao.postach.io","https://github.com/imechzhangly","inactive"],
     ["吕益航","./image/lv.jpg","http://benjaminpaul.postach.io","https://github.com/benjaminhang","inactive"],
+    ["程石磊","./image/cheng.jpg","http://chengshilei.postach.io","https://github.com/CSL551","inactive"]
 ];
 var navReplaceStr = ["{{itemtitle}}","{{photourl}}","{{blogurl}}","{{giturl}}","{{isactive}}"];
 renderDom(advantageId, advantageData, navReplaceStr);
