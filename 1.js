@@ -19,13 +19,13 @@ renderDom(navEleId, navEleData, navReplaceStr);
 var advantageId = "#advantagetemplate";
 var childrenClassName = "advantageitem";
 var advantageData = [
-    ["刘尚宇","./image/liu.jpg","http://shangyuliu.postach.io","https://github.com/ironlionliu","active"],
-    ["李玉川","./image/li.jpg","http://alvinblack.postach.io","https://github.com/alvinblack","inactive"],
-    ["张路姚","./image/zhang.jpg","http://zhangluyao.postach.io","https://github.com/imechzhangly","inactive"],
-    ["吕益航","./image/lv.jpg","http://benjaminpaul.postach.io","https://github.com/benjaminhang","inactive"],
-    ["程石磊","./image/cheng.jpg","http://chengshilei.postach.io","https://github.com/CSL551","inactive"]
+    ["刘尚宇","./image/liu.jpg","http://shangyuliu.postach.io","https://github.com/ironlionliu","https://ironlionliu.github.io/index","active"],
+    ["李玉川","./image/li.jpg","http://alvinblack.postach.io","https://github.com/alvinblack","https://alvinblack.github.io/myhomepage","inactive"],
+    ["张路姚","./image/zhang.jpg","http://zhangluyao.postach.io","https://github.com/imechzhangly","https://imechzhangly.github.io/index","inactive"],
+    ["吕益航","./image/lv.jpg","http://benjaminpaul.postach.io","https://github.com/benjaminhang","https://benjaminhang.github.io/Resume","inactive"],
+    ["程石磊","./image/cheng.jpg","http://chengshilei.postach.io","https://github.com/CSL551","to be done","inactive"]
 ];
-var navReplaceStr = ["{{itemtitle}}","{{photourl}}","{{blogurl}}","{{giturl}}","{{isactive}}"];
+var navReplaceStr = ["{{itemtitle}}","{{photourl}}","{{blogurl}}","{{giturl}}","{{mainurl}}","{{isactive}}"];
 renderDom(advantageId, advantageData, navReplaceStr);
 activeListen(advantageId,childrenClassName);
 

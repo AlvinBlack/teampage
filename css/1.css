@@ -194,7 +194,7 @@
     flex: 1;
     margin-top: 20px;
     border: solid 1px rgb(225,227,230);
-    height: 400px;
+    height: 450px;
 }
 #productdetail #details #advantagetemplate .advantageitem .title{
     width: 100%;
@@ -205,6 +205,7 @@
     border-bottom: solid 1px rgb(225,227,230);
     background: rgb(243,245,247);
 }
+
 #productdetail #details #advantagetemplate .advantageitem .content{
     margin-top: 30px;
     padding: 10px;
