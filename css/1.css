@@ -188,13 +188,15 @@
         /*产品优势*/
 #productdetail #details #advantagetemplate{
     display: flex;
+    flex-wrap: wrap;
 }
 
 #productdetail #details #advantagetemplate .advantageitem{
-    flex: 1;
+    width: 25%;
     margin-top: 20px;
     border: solid 1px rgb(225,227,230);
-    height: 400px;
+    height: 500px;
+    overflow: hidden;
 }
 #productdetail #details #advantagetemplate .advantageitem .title{
     width: 100%;
@@ -311,15 +313,22 @@
 #productdetail #details #scene #scenebodytemplate{
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
 }
 #productdetail #details #scene .scenecontent .bodyitem{
     flex: 1;
-    width: 25%;
+    width: 15%;
     border-top: solid 1px rgb(225,227,230);
     border-right: solid 1px rgb(225,227,230);
     padding: 40px;
     text-align: left;
 }
+#productdetail #details #scene .scenecontent .bodyitem>a{
+    display: block;
+    overflow: hidden;
+
+}
+
 #productdetail #details #scene .scenecontent .bodyitem>p{
     width: 100%;
 }

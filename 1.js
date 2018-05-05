@@ -15,17 +15,18 @@ renderDom(navEleId, navEleData, navReplaceStr);
 
 
 
-/********************************高超高超***********************l****/
+/********************************成员介绍***********************l****/
 var advantageId = "#advantagetemplate";
 var childrenClassName = "advantageitem";
 var advantageData = [
-    ["刘尚宇","./image/liu.jpg","http://shangyuliu.postach.io","https://github.com/ironlionliu","active"],
-    ["李玉川","./image/li.jpg","http://alvinblack.postach.io","https://github.com/alvinblack","inactive"],
-    ["张路姚","./image/zhang.jpg","http://zhangluyao.postach.io","https://github.com/imechzhangly","inactive"],
-    ["吕益航","./image/lv.jpg","http://benjaminpaul.postach.io","https://github.com/benjaminhang","inactive"],
-    ["程石磊","./image/cheng.jpg","http://chengshilei.postach.io","https://github.com/CSL551","inactive"]
+    ["刘尚宇","./image/liu.jpg","http://shangyuliu.postach.io","https://github.com/ironlionliu","https://ironlionliu.github.io/index","active"],
+    ["李玉川","./image/li.jpg","http://alvinblack.postach.io","https://github.com/alvinblack","https://alvinblack.github.io/myhomepage","inactive"],
+    ["张路姚","./image/zhang.jpg","http://zhangluyao.postach.io","https://github.com/imechzhangly","https://imechzhangly.github.io/index","inactive"],
+    ["吕益航","./image/lv.jpg","http://benjaminpaul.postach.io","https://github.com/benjaminhang","https://benjaminhang.github.io/Resume","inactive"],
+    ["程石磊","./image/cheng.jpg","http://chengshilei.postach.io","https://github.com/CSL551","to be done","inactive"],
+    ["郭雨枫","./image/guo.jpg","http://guoyufeng.postach.io","https://github.com/York-yanyu","https://york-yanyu.github.io/index/","inactive"]
 ];
-var navReplaceStr = ["{{itemtitle}}","{{photourl}}","{{blogurl}}","{{giturl}}","{{isactive}}"];
+var navReplaceStr = ["{{itemtitle}}","{{photourl}}","{{blogurl}}","{{giturl}}","{{mainurl}}","{{isactive}}"];
 renderDom(advantageId, advantageData, navReplaceStr);
 activeListen(advantageId,childrenClassName);
 
@@ -53,6 +54,8 @@ var sceneData = [
     ["inactive","爬取列车信息",],
     ["inactive","有限元网站",],
     ["inactive","文献评阅系统",],
+    ["inactive","???",],
+    ["inactive","???",],
 ];
 var navReplaceStr = ["{{isactive}}","{{scene-content}}",];
 renderDom(sceneId, sceneData, navReplaceStr);
@@ -68,6 +71,8 @@ var sceneContentData = [
     ["inactive","作者：吕益航","https://github.com/BenjaminHang/craw_train"],
     ["inactive","作者：张路姚","https://github.com/imechZhangLY/truss-online"],
     ["inactive","作者：李玉川","https://github.com/AlvinBlack/litassistant"],
+    ["inactive","作者：程石磊","https://github.com/AlvinBlack/litassistant"],
+    ["inactive","作者：郭雨枫","https://github.com/AlvinBlack/litassistant"],
 ];
 var navReplaceStr = ["{{isactive}}","{{scene-content}}","{{url}}"];
 renderDom(sceneBody, sceneContentData, navReplaceStr);
